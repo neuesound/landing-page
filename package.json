@@ -1,0 +1,35 @@
+{
+  "name": "atomic-design",
+  "version": "1.0.0",
+  "description": "startup for projects using sass, gulp and atomci-design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrunoKinoshita/atomic-design.git"
+  },
+  "keywords": [
+    "atomic",
+    "design",
+    "gulp",
+    "javascript",
+    "sass",
+    "scss",
+    "gulpjs"
+  ],
+  "author": "Bu Kinoshita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrunoKinoshita/atomic-design/issues"
+  },
+  "homepage": "https://github.com/BrunoKinoshita/atomic-design",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-minify-html": "^1.0.2",
+    "gulp-sass": "^1.3.3",
+    "gulp-sourcemaps": "^1.5.2",
+    "require-dir": "^0.3.0"
+  }
+}

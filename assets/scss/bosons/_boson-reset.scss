@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 100%;
+}
+
+html, body, h1, h2, h3, p, a, img,
+h4, h5, h6,
+li, ul,
+header, article, footer, aside, nav,
+span, figure, fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+img, fieldset {
+  border: none;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, a, h1, h2, h3, h4, h5, h5, span, button, label, input {
+  text-rendering: optimizeSpeed;
+}

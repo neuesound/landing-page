@@ -1,0 +1,55 @@
+%button {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: .8rem;
+  transition: .25s;
+  background: none;
+}
+
+%button-primary {
+  @extend %button;
+  background: $primary-color;
+  color: $white;
+
+  &:hover {
+    background: lighten($primary-color, 5%);
+  }
+}
+
+%button-secondary {
+  @extend %button;
+  background: $secondary-color;
+  color: $white;
+
+  &:hover {
+    background: lighten($secondary-color, 5%);
+  }
+}
+
+%button-primary--bordered {
+  @extend %button;
+  border-color: $primary-color;
+  color: $primary-color;
+}
+
+%button-secondary--bordered {
+  @extend %button;
+  border-color: $secondary-color;
+  color: $secondary-color;
+}
+
+%button-primary--large {
+  @extend %button-primary;
+  padding: 17px 20px;
+  font-size: 1rem;
+}
+
+%button-secondary--small {
+  @extend %button-secondary;
+  padding: 6px 12px;
+  font-size: .65rem;
+}

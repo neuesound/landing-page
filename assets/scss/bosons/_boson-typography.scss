@@ -1,0 +1,12 @@
+html {
+  font-size: $font-size-mobile;
+  font-family: $primary-font;
+
+  @include breakpoint(tablet) {
+    font-size: $font-size-tablet;
+  }
+
+  @include breakpoint(desktop) {
+    font-size: $font-size-desktop;
+  }
+}

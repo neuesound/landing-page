@@ -1,0 +1,12 @@
+@mixin breakpoint($point) {
+  $breakpoint-tablet: "(min-width: 40.063em)";
+  $breakpoint-desktop: "(min-width: 64.063em)";
+
+  @if $point == tablet {
+    @media #{$breakpoint-tablet} { @content; }
+  }
+
+  @else if $point == desktop {
+    @media #{$breakpoint-desktop} { @content; }
+  }
+}
